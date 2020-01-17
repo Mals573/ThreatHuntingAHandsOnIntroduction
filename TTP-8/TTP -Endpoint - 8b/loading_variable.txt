@@ -1,0 +1,1 @@
+Import-Clixml "C:\Users\thene\Documents\CybraryThreatHuntingCourse\TTP -Endpoint\dana.xml"| %{ Set-Variable $_.Name $_.Value }

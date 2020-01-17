@@ -1,0 +1,3 @@
+
+$pcalua = parse-sysmon C:\Users\thene\Documents\CybraryThreatHuntingCourse\Introduction\exec_sysmon_1_lolbin_pcalua.evtx	
+$pcalua | select -Property "UTC Time",Image,CommandLine
